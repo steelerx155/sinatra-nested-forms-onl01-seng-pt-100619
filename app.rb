@@ -5,9 +5,16 @@ module FormsLab
 
     # code other routes/actions here
     
-  get "./" do
-    erb :new
+   get "/" do 
+      "Welcome to the Nested Forms Lab!"
   end
-
+  
+  get "/new" do 
+    "<form> </form>"
+    
+  end
+  
+  
+  
   end
 end
