@@ -10,8 +10,7 @@ module FormsLab
   end
   
   get "/new" do 
-    "<form> </form>"
-    
+
   end
   
   
